@@ -1,0 +1,11 @@
+@import url(./place/place.css);
+@import url(./__table/places__table.css);
+@import url(./__item/places__item.css);
+
+.places {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 92px 148px;
+}

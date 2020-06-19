@@ -1,0 +1,14 @@
+.places__item {
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-template-areas: 
+    "title website"
+    "image text";
+    width: 100%;
+    gap: 48px 40px;
+    margin-top: 80px;
+}
+
+.places__item:first-of-type {
+    margin-top: 0;
+}
