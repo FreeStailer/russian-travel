@@ -3,3 +3,11 @@
     align-self: end;
     margin: 0;
 }
+
+/* вроде в грид сетке его не указываем, но навсякий случай скроем
+вебссылку не отображаем до выстраивания в сетку*/
+@media screen and (max-width: 690px) {
+    .place__website {
+        display: none;
+    }
+}

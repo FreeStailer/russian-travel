@@ -9,4 +9,6 @@
 
 .header__lang-link:hover {
     text-decoration: underline;
+    opacity: 0.3;
+    transition: linear 0.3s;
 }

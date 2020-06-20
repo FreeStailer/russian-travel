@@ -8,3 +8,30 @@
     height: 200px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__title {
+        padding: 48px 0 0 0;
+
+    }
+}
+/*переломный момент, образования горизонтальной прокрутки*/
+@media screen and (max-width: 690px) {
+    .lead__title {
+        font-size: 54px;
+        line-height: 1.1;
+    }
+}
+/*переломный момент, образования горизонтальной прокрутки*/
+@media screen and (max-width: 425px) {
+    .lead__title {
+        font-size: 48px;        
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        max-width: 288px;
+        font-size: 40px;
+    }
+}
