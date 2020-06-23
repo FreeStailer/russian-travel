@@ -1,4 +1,3 @@
-@import url(./place/place.css);
 @import url(./__table/places__table.css);
 @import url(./__item/places__item.css);
 
@@ -8,6 +7,12 @@
     align-content: center;
     justify-content: center;
     margin: 92px 148px;
+}
+/*эксперимент с калькулятором*/
+@media screen and (max-width: 1269px) {
+    .places {
+        margin-left: calc(48px + (((1024px - 100%)*-1) / 2.46));
+    }
 }
 
 @media screen and (max-width: 1024px) {

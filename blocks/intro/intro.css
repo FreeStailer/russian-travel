@@ -3,12 +3,13 @@
 @import url(./__text/intro__text.css);
 @import url(./__cell/intro__cell.css);
 @import url(./__cell-text/intro__cell-text.css);
+@import url(./__cell-text/_normal/intro__cell-text_normal.css);
 
 .intro {
     display: flex;
     flex-direction: column;
     max-width: 690px;
-    margin: 92px auto;
+    margin: 92px auto 0 148px;
 }
 
 @media screen and (max-width: 1024px) {

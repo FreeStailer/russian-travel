@@ -1,14 +1,8 @@
 .intro__list {
     color: white;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 18px;
     list-style: none;
     padding: 0;
     height: 90px;
-}
-
-.intro__cell-text {
     margin: 0;
 }
 
