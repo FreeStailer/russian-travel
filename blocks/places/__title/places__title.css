@@ -1,4 +1,4 @@
-.place__title {
+.places__title {
     grid-area: title;
     font-style: normal;
     font-weight: 900;
@@ -10,13 +10,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .place__title {
+    .places__title {
         font-size: 42px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .place__title {
+    .places__title {
         font-size: 32px;
         padding: 0 16px;
     }
